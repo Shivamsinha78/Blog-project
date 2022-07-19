@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	max-width: 100%;
+	height: auto;
+}
+.uli li{
+	margin-left: 25px;
+}
+.uli li a{
+	color: black;
+	font-weight: bold;
+}
+.con1{
+	background-image: url('1.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	position: relative;
+	
+}
+.con5{
+	height: 1060px;
+	padding-top: 60px;
+}
+.card{
+	margin-top: 30px;
+}
+.card:hover{
+	transform: scale(1.06,1.06);
+	background-color: #F5B041;
+	color: white;
+	transition: 0.1s;
+}
+	
+
+.img1{
+	position: absolute;
+	top: 35%;
+	left: 9%;
+}
+.img1 h1{
+	width: 600px;
+}
+footer{
+	height: 430px;
+	background-color: pink;
+	padding-top: 60px;
+	color: white;
+	background-color: black;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.foot ul{
+	list-style-type: none;
+}
+#l1 li p{
+	width: 300px;
+	margin-top: 22px;
+
+}
+.social{
+	display: flex;
+	margin-top: 32px;
+	margin-left: -22px;
+
+}
+.social li{
+	margin-left: 25px;
+
+}
+.social li i{
+	color: orange;
+}
+#l2 li h3{
+	margin-bottom: 30px;
+}
+
+#l3 li h3{
+	margin-bottom: 30px;
+}
+.copy p{
+	margin-top: 35px;
+}
+/*End of footer*/
